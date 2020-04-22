@@ -1,9 +1,9 @@
 .our-process {
     padding: 80px 80px;
-    background-color: rgba(3, 3, 3, 0.842);
+    background-color: #f7f7f7;
     text-align: center;
     align-content: center;
-    color:rgb(231, 198, 6);
+    columns: #000000;;
 }
 
 .our-process h1 {
