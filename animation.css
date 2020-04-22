@@ -1,6 +1,6 @@
 .our-process {
     padding: 80px 80px;
-    background: linear-gradient(to bottom, #425BA9, rgba(102, 102, 228, 0.493));
+    background-color: rgba(227, 79, 38, 0.842);
     text-align: center;
     align-content: center;
     color:white;
@@ -19,7 +19,7 @@
 
 .our-process p {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .flip {
