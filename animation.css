@@ -2,6 +2,7 @@
     padding: 80px 80px;
     background: linear-gradient(to bottom, #425BA9, rgb(69, 69, 70));
     text-align: center;
+    align-content: center;
     color:white;
 }
 
@@ -23,13 +24,13 @@
 
 .flip {
     display: flex;
-    flex: auto;
-    padding: 20px auto;
+    flex-wrap: wrap;
 }
 
 .bungkus {
+    flex: auto;
     width: 30%;
-    padding: 0 2%;
+
 }
 
 .flip-box {
