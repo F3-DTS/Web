@@ -1,7 +1,7 @@
 
  @media all and (max-width: 1000px) {
     /* about us */
-.lesson {
+.about {
     width:100%;
     margin-bottom: 50px;
 }
@@ -14,10 +14,10 @@
 
 @media all and (max-width: 670px) {
 /* about us */
-.lesson {
+.about {
     width: 100%;
 }
-.lesson-icon img {
+.about-icon img {
     margin-top: -15px;
     width: 75%;
 }
