@@ -1,1 +1,42 @@
 
+ @media all and (max-width: 1000px) {
+    /* about us */
+.lesson {
+    width:100%;
+    margin-bottom: 50px;
+}
+.heading h2 {
+    font-size: 20px;
+  }
+    /* akhir about us */
+}
+
+
+@media all and (max-width: 670px) {
+/* about us */
+.lesson {
+    width: 100%;
+}
+.lesson-icon img {
+    margin-top: -15px;
+    width: 75%;
+}
+.text-contents {
+    font-size: 14px;
+    
+}
+   
+/* akhir about us */
+
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+
+
+  
+}
+
