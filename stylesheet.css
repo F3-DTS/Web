@@ -178,6 +178,48 @@
     font-size: 15px;
     color: #504953;
   }
+/* about us */
+  .about-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #425ba9;;
+  }
+  
+  .about {
+    float: left;
+    width: 50%;
+  }
+  
+  .about-icon {
+    position: relative;
+  }
+  .about-icon img {
+    width: 50%;
+  
+  }
+  .about-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 20px;
+    color: #425ba9;
+  }
+  /* akhir about us */
   
   .heading h3 {
     font-weight: normal;
