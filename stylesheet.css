@@ -30,7 +30,7 @@
   
   .top-wrapper {
     padding: 180px 50px 100px 0;
-    height: 600px;
+    height: 700px;
     background-image: url(img/header.png);
     background-size: cover;
     color: white;
@@ -139,14 +139,13 @@
     text-align: center;
   }
   
-  .heading {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    color: #5f5d60;
-  }
   
-  .heading h2 {
+  .section-title {
     font-weight: normal;
+    padding: 40px 0;
+    color: #4768af;
+    border-bottom: 1px solid #8b8d91;
+    margin-bottom: 40px;
   }
   
   .lesson {
