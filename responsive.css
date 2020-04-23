@@ -6,7 +6,7 @@
     margin-bottom: 50px;
 }
 .heading h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
     /* akhir about us */
 }
@@ -16,6 +16,9 @@
 /* about us */
 .about {
     width: 100%;
+}
+.heading h2 {
+    font-size: 30px;
 }
 .about-icon img {
     margin-top: -15px;
