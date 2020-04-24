@@ -9,6 +9,10 @@
     font-size: 30px;
   }
     /* akhir about us */
+  .kolom {
+	
+  width: 100%;
+}
 }
 
 
@@ -38,7 +42,10 @@
   .menu-icon {
     display: block;
   }
-
+.kolom {
+	
+  width: 100%;
+}
 
   
 }
