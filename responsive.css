@@ -13,7 +13,9 @@
     
     width: 100%;
   }
-  
+  .tim{
+   width: 75%
+  }
 }
 
 
@@ -57,12 +59,9 @@
   }
 
   .tim-wrapper{
-    height: 400vh;
+    height: 350vh;
     background-color: blue;
   }
 
-  .card {
-      width: 100%;
-    }
 }
 
