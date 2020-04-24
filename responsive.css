@@ -48,8 +48,7 @@
     }
     .tim {
     width: 100%;
-    padding: 20px;
-    align-items: center;
+    height: max-content;
     
   }
 
