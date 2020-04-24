@@ -92,6 +92,7 @@
     background-color: #425BA9;
     margin-right: 1px;
     border-radius: 50%;
+    margin-bottom: 15px;
   }
   
   
@@ -132,10 +133,10 @@
     background-color: rgba(255, 24, 24, 0.3);
   }
   
-  .lesson-wrapper {
+  .tim-wrapper {
     height: 500px;
     padding-bottom: 80px;
-    background-color: #ffffff;
+    background-color: #0a1d7d;
     text-align: center;
   }
   
@@ -148,22 +149,23 @@
     margin-bottom: 40px;
   }
   
-  .lesson {
+  .tim {
     float: left;
     width: 20%;
-  
+    align-items: center;
+      
   }
   
-  .lesson-icon {
+  .tim-icon {
     position: relative;
   }
 
-  .lesson-icon img {
+  .tim-icon img {
     border-radius: 50%;
     width: 150px;
   }
   
-  .lesson-icon p {
+  .tim-icon p {
     position: absolute;
     top: 90px;
     width: 100%;
@@ -173,7 +175,7 @@
   .txt-contents {
     width: 80%;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 1px;
     font-size: 15px;
     color: #504953;
   }
@@ -354,18 +356,31 @@ input, textarea {
     display: none;
   }
   
-  @media all and (max-width: 1000px) {
-    
-  }
-  
-  
-  @media all and (max-width: 670px) {
-    .header-right {
-      display: none;
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  border-radius: 20px 20px;
+  background-color: rgb(255, 153, 0);
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  color: white;
+}
+
+.card img {
+	border-radius: 20px 20px 0px 0px;
+    width:100%;
+}
+
+.container h4 {
+	position: center;
     }
-    
-    .menu-icon {
-      display: block;
-    }
-  }
+
 
