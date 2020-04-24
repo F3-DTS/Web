@@ -1,55 +1,119 @@
 
+
+
  @media all and (max-width: 1000px) {
     /* about us */
-  .about {
-      width:100%;
-      margin-bottom: 50px;
+.about {
+    width:100%;
+    margin-bottom: 50px;
+}
+.heading h2 {
+    font-size: 30px;
   }
-  .heading h2 {
-      font-size: 30px;
-    }
-      /* akhir about us */
-    .kolom {
-    
-    width: 100%;
+    /* akhir about us */
+
+/* === MULAI OUR TEAM === */
+.team {
+  width: 100%;
+  margin-top: 20px;
+}
+/* === AKHIR OUR TEAM === */
+
+.contact-form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.team {
+  width: 100%;
+  margin-top: 20px;
   }
-  .tim{
+
+  .tim {
    width: 50%;
    padding: 15px;
   }
+
+  .contact-form {
+  width: 100%;
+  margin-bottom: 20px;
+  }
+
+
+  .card {
+    display: flex;
+  }
+/* .kolom {
+  width: 100%;
+} */
+/* .bungkus {
+  width: 10%;
+  margin-bottom: 20px;
+  text-align: center; */
 }
+/* .flip-box {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+} */
+
+/* .lesson-wrapper {
+width: 50%;
+}
+
+.lesson {
+  width: 30%;
+  margin-bottom: 30px;
+  margin-right: 10px;
+} */
+
 
 
 @media all and (max-width: 670px) {
 /* about us */
-  .about {
-    width: 100%;
-  }
+.about {
+  width: 100%;
+}
+.heading h2 {
+  font-size: 30px;
+}
+.about-icon img {
+  margin-top: -15px;
+  width: 75%;
+}
+.text-contents {
+  font-size: 14px;
+}
+ 
+/* akhir about us */
 
-  .heading h2 {
-    font-size: 30px;
-  }
+/* === MULAI OUR TEAM === */
+.team-wrapper {
+  width: 1000%;
+  
+}
 
-  .about-icon img {
-    margin-top: -15px;
-     width: 75%;
-  }
-  .text-contents {
-    ont-size: 14px;
-        
- }
-      
-  /* akhir about us */
+/* === AKHIR OUR TEAM === */
 
-  .header-right {
-    display: none;
-  }
-      
-  .menu-icon {
-    display: block;
-  }
+.header-right {
+  display: none;
+}
 
- .kolom {
+.menu-icon {
+  display: block;
+}
+
+.kolom {
+width: 100%;
+}
+
+.bungkus {
+margin-bottom: 20px;
+text-align: center;
+margin-left: -20px;
+}
+
+.kolom {
     width: 100%;
   }
 
@@ -60,9 +124,19 @@
   }
 
   .tim-wrapper{
-    height: 350vh;
-    background-color: blue;
+    display: flex;
+    background-color: #0a1d7d;
+  }
+  .card {
+    display: flex;
+  }
+  .our-proses {
+    display: flex;
   }
 
-}
+  .our-proses flip{
+    display: inline;
+  }
 
+
+}
