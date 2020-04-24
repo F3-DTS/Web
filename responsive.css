@@ -1,63 +1,70 @@
 
  @media all and (max-width: 1000px) {
     /* about us */
-.about {
-    width:100%;
-    margin-bottom: 50px;
-}
-.heading h2 {
-    font-size: 30px;
+  .about {
+      width:100%;
+      margin-bottom: 50px;
   }
-    /* akhir about us */
-  .kolom {
-	
-  width: 100%;
-}
+  .heading h2 {
+      font-size: 30px;
+    }
+      /* akhir about us */
+    .kolom {
+    
+    width: 100%;
+  }
+  .card {
+      width: 100%;
+    }
 }
 
 
 @media all and (max-width: 670px) {
 /* about us */
-    .about {
-        width: 100%;
-    }
-    .heading h2 {
-        font-size: 30px;
-    }
-    .about-icon img {
-        margin-top: -15px;
-        width: 75%;
-    }
-    .text-contents {
-        font-size: 14px;
-        
-    }
-      
-    /* akhir about us */
+  .about {
+    width: 100%;
+  }
 
-      .header-right {
-        display: none;
-      }
+  .heading h2 {
+    font-size: 30px;
+  }
+
+  .about-icon img {
+    margin-top: -15px;
+     width: 75%;
+  }
+  .text-contents {
+    ont-size: 14px;
+        
+ }
       
-      .menu-icon {
-        display: block;
-      }
-    .kolom {
+  /* akhir about us */
+
+  .header-right {
+    display: none;
+  }
       
-      width: 100%;
-    }
-    .tim {
+  .menu-icon {
+    display: block;
+  }
+
+ .kolom {
+    width: 100%;
+  }
+
+  .tim {
     width: 100%;
     height: max-content;
-    padding: 15px;
-    
+    padding: 20px;
   }
 
-  .tim-wrapper {
-    height: 100%;
-    padding-bottom: 80px;
-    background-color: #0a1d7d;
-    text-align: center;
+  .tim-wrapper{
+    height: 400vh;
+    background-color: blue;
   }
+
+  .card {
+      width: 100%;
+    }
 }
 
