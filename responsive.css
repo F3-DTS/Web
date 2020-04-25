@@ -10,6 +10,21 @@
 .heading h2 {
     font-size: 30px;
   }
+  .bungkus{
+  margin-bottom: 10px;
+  width: 100%;
+}
+.our-process {
+  padding: 24px 24px;
+}
+.flip{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flip-box {
+  width: 100%;
+}
     /* akhir about us */
 
 /* === MULAI OUR TEAM === */
@@ -90,7 +105,9 @@ width: 50%;
 .text-contents {
   font-size: 14px;
 }
- 
+ .bungkus{
+  width: 100%;
+}
 /* akhir about us */
 
 /* === MULAI OUR TEAM === */
