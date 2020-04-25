@@ -12,6 +12,10 @@
     /* akhir about us */
 
 /* === MULAI OUR TEAM === */
+.bungkus{
+  margin-bottom: 10px;
+  width: 100%;
+}
  .our-process {
      padding :24px 24px;
     }
@@ -19,7 +23,6 @@
   display: flex;
   flex-direction: column;
    align-items:center;
-  justify-content: space-around;
 }
 .flip-box {
   width: 100%;
@@ -108,6 +111,10 @@
     display: flex;
     background-color: #0a1d7d;
   }
+  .bungkus{
+  margin-bottom: 10px;
+  width: 100%;
+}
   .card {
     display: flex;
   }
