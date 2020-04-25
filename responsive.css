@@ -1,33 +1,26 @@
 
 
-
- @media all and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
     /* about us */
-.about {
+  .about {
     width:100%;
     margin-bottom: 50px;
 }
 .heading h2 {
     font-size: 30px;
   }
-  .bungkus{
-  margin-bottom: 10px;
-  width: 100%;
-}
-.our-process {
-  padding: 24px 24px;
-}
+    /* akhir about us */
+
+/* === MULAI OUR TEAM === */
 .flip{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
 }
 .flip-box {
   width: 100%;
 }
-    /* akhir about us */
 
-/* === MULAI OUR TEAM === */
 .team {
   width: 100%;
   margin-top: 20px;
@@ -38,8 +31,13 @@
   width: 100%;
   margin-bottom: 20px;
 }
+      /* akhir about us */
+    .kolom {
+    
+    width: 100%;
+  }
 
-.team {
+  .team {
   width: 100%;
   margin-top: 20px;
   }
@@ -54,89 +52,43 @@
   margin-bottom: 20px;
   }
 
-
   .card {
     display: flex;
   }
-  .kolom {
-   width:100%
-  }
-/* .kolom {
-  width: 100%;
-} */
-/* .bungkus {
-  width: 10%;
-  margin-bottom: 20px;
-  text-align: center; */
-}
-/* .flip-box {
-  text-align: center;
-  width: 500px;
-  height: 500px;
-} */
 
-/* .lesson-wrapper {
-width: 50%;
-}
-
-.lesson {
-  width: 30%;
-  margin-bottom: 30px;
-  margin-right: 10px;
-} */
-.slider-holder{
-    display: none;
-  }
 }
 
 
 @media all and (max-width: 670px) {
 /* about us */
-.about {
-  width: 100%;
-}
-.heading h2 {
-  font-size: 30px;
-}
-.about-icon img {
-  margin-top: -15px;
-  width: 75%;
-}
-.text-contents {
-  font-size: 14px;
-}
- .bungkus{
-  width: 100%;
-}
-/* akhir about us */
+  .about {
+    width: 100%;
+  }
 
-/* === MULAI OUR TEAM === */
-.team-wrapper {
-  width: 1000%;
-  
-}
+  .heading h2 {
+    font-size: 30px;
+  }
 
-/* === AKHIR OUR TEAM === */
+  .about-icon img {
+    margin-top: -15px;
+     width: 75%;
+  }
+  .text-contents {
+    ont-size: 14px;
+        
+ }
+      
+  /* akhir about us */
 
-.header-right {
-  display: none;
-}
+  .header-right {
+    display: none;
+  }
+      
+  .menu-icon {
+    display: block;
+  }
 
-.menu-icon {
-  display: block;
-}
-
-.kolom {
-width: 100%;
-}
-
-.bungkus {
-margin-bottom: 20px;
-text-align: center;
-margin-left: -20px;
-}
-
-.kolom {
+ .kolom {
     width: 100%;
   }
 
@@ -160,8 +112,11 @@ margin-left: -20px;
   .our-proses flip{
     display: inline;
   }
+
   .slider-holder{
     display: none;
   }
-
+  
 }
+
+
