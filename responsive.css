@@ -43,6 +43,9 @@
   .card {
     display: flex;
   }
+  .kolom {
+   width:100%
+  }
 /* .kolom {
   width: 100%;
 } */
