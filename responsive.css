@@ -12,9 +12,13 @@
     /* akhir about us */
 
 /* === MULAI OUR TEAM === */
+ .our-process {
+     padding :24px 24px;
+    }
 .flip{
   display: flex;
   flex-direction: column;
+   align-items:center;
   justify-content: space-around;
 }
 .flip-box {
@@ -126,6 +130,8 @@
 .flip-box {
   width: 100%;
 }
+ input, textarea {
+     width: 100%;
 }
 
 
