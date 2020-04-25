@@ -55,7 +55,9 @@
   .card {
     display: flex;
   }
-
+.slider-holder{
+    display: none;
+ }
 }
 
 
