@@ -116,7 +116,14 @@
   .slider-holder{
     display: none;
   }
-  
+  .flip{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flip-box {
+  width: 100%;
+}
 }
 
 
