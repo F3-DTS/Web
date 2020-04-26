@@ -214,50 +214,6 @@ header {
 }
 
 /* style service selesai  */
-  
-.tim-wrapper {
-    display: flex;
-    padding-bottom: 80px;
-    background-color: #0a1d7d;
-    text-align: center;
-    justify-content: space-between;
-    
-  }
-  
-  
-  
-  .tim {
-    float: left;
-    justify-content: space-around;
-    flex-direction: ;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .tim-icon {
-    position: relative;
-  }
-
-  .tim-icon img {
-    border-radius: 50%;
-    width: 150px;
-  }
-  
-  .tim-icon p {
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    color: white;
-  }
-  
-  .txt-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 1px;
-    font-size: 15px;
-    color: #504953;
-  }
 
 /* about us */
 
@@ -292,28 +248,6 @@ header {
 
 /* akhir about us */
   
-  .heading h3 {
-    font-weight: normal;
-  }
-  
-  .message-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 80px;
-    text-align: center;
-  }
-  
-  .message {
-    padding: 15px 40px;
-    background-color: rgb(45, 78, 175);
-    cursor: pointer;
-    box-shadow: 0 7px #063cb1;
-  }
-  
-  .message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
-  }
 
 /* get in touch  */
 
@@ -393,6 +327,7 @@ input, textarea {
   }
 
 /* Style untuk footer  */
+
 footer p {
     color: #ffffff;
 }
@@ -405,9 +340,10 @@ footer {
 }
   
 .main-footer {
-    background-color: #323844;
+    background-color: #434444;
     text-align: center;
-    height: 270px;
+    height: 280px;
+    padding-top: 25px;
   
 }
 
@@ -464,7 +400,8 @@ a.socialIcon:hover, .socialHoverClass {
 	text-align:center;
 	width: 50px;
 	height: 50px;
-	font-size:20px;
+  font-size:20px;
+  background-color: black;
 }
 .social-circle li i {
 	margin:0;

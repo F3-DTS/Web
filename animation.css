@@ -19,56 +19,6 @@
 
 }
 
-.flip-box {
-    background-color: transparent;
-    width: 150px;
-    height: 150px;
-  }
-
-.flip-box img {
-    width: 150px;
-    height: 150px;
-  }
-  
-  /* This container is needed to position the front and back side */
-.flip-box-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-box-front {
-    
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-box-back {
-    color: #4768af;
-    transform: rotateY(180deg);
-  }
-
-
-
-  /* Start: Recommended Isotope styles */
 
 /**** Isotope Filtering ****/
 
@@ -137,31 +87,6 @@
 
 /**** Isotope styles ****/
 
-/* required for containers to inherit vertical size from window */
-/*html,
-body {
-  height: 100%;
-}*/
-
-
-
-
-
-
-
-nav#filter a {
-	background-color: #EEE;
-	color:#555;
-}
-nav#filter a:hover, nav#filter a.current {
-	background-color: #4768af;
-	color:#fff;
-}
-
-/* ------- */
-
-
-
 #portfolio img  {
 	width:100%;
 }
@@ -222,9 +147,9 @@ nav#filter a {
 
 
 .portfolio-item .portfolio-desc a:hover {
-	/*text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);*/
 	text-decoration: none;
 }
+
 .portfolio-item .portfolio-desc .folio-info {
 	top:-20px;
 	padding: 30px;
@@ -239,8 +164,6 @@ nav#filter a {
     transition: all 500ms ease-in-out 0s;
 	top:5px;
 }
-
-
 
 .portfolio-item .portfolio-desc .folio-info h5 {
 	text-transform: uppercase;
