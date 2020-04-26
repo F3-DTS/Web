@@ -38,6 +38,13 @@
   width: 50%;
 }
 
+.banner-saja {
+  height: 700px;
+  background-image: url(img/officebghory.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 }
 /* =============== Style pada smartphone =================== */
 
@@ -94,6 +101,13 @@
 
   .sebelahan {
     width: 100%;
+  }
+
+  .banner-saja {
+    height: 700px;
+    background-image: url(img/officebghory.jpg);
+    background-attachment: fixed;
+    background-size: cover;
   }
 
 
