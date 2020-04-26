@@ -1,34 +1,45 @@
 <!DOCTYPE html>
+<!-- 
+    Website Hasil Kerja Tim
+    Tim F3 DTS 2020
+    Author : Liu Purnomo, Asep Siddik, Muh Ikhwal, Jemjem Nurjaman, Lutfi Naufal
+    copyright 2020    
+ -->
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F3_DTS20</title>
+    <title>DTS20 F3 Web</title>
+    <!-- link stylesheet  -->
     <link rel="stylesheet" href="stylesheet.css">
-    <link href="slide.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slide.css" >
     <link rel="stylesheet" href="animation.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="responsive.css">
+    <!-- link stylesheet external -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap">
+    <!-- link pavicon -->
+    <link rel="shortcut icon" href="img/pav.png">
 </head>
 
 <body>
-<!--     code untuk header disni -->
+<!-- code untuk header disni -->
     <header>
         <div class="container">
+            <!-- code untuk logo  -->
             <div class="header-left">
                 <img class="logo" src="img/horizontal-color.png">
             </div>
             <!-- code untuk menu disini -->
-            <span class="menu-icon"></span>
+            <span class="fa fa-bars menu-icon"></span>
             <div class="header-right">
-                <a href="">PROJECT</a>
-                <a href="#our-team">OUR TEAM</a>
-                <a href="">CONTACT</a>
-                <a disabled="true">|</a>
-                <a href="">LOGIN</a>
-                <a href="" class="btn ">JOIN</a>
+                <a href="#service" class="hideipad">SERVICE</a>
+                <a href="#portfolio" class="hideipad">PORTFOLIO</a>
+                <a href="#about-us" class="hideipad">ABOUT US</a>
+                <a href="#our-team" class="hideipad">OUR TEAM</a>
+                <a href="#" class="login-menu">CONTACT</a>
+                <a href="#" class="join-menu">GET QUOTE</a>
             </div>
         </div>
     </header>
@@ -36,107 +47,230 @@
     <!-- code untuk main banner mulai dari sini  -->
     <div class="top-wrapper">
         <div class="container">
-            <h1>Wellcome to </h1>
-            <h1><span style="color: rgb(14, 31, 213);">F3 Team</span> Project.</h1>
-            <p>This website is created using HTML and CSS</p>
-            <p>to complete the Class F group assignments <b style="color: rgb(14, 31, 213);"><i >Online Academy</i></b></p>
-            <p>Digital Talent Scholarship 2020</p>
-            <p><b>#dirumahaja</b></p>
-            <div class="btn-wrapper">
-                <a href="#" class="btn message"><b>JOIN US</b></a>
+            <div class="content-top">
+                <h1>Wellcome to </h1>
+                <h1><span style="color: #4768af;">F3 Team</span> Project.</h1>
+                <p>This website is created using HTML and CSS</p>
+                <p>to complete the Class F group assignments <b style="color: #4768af;"><i >Online Academy</i></b></p>
+                <p>Digital Talent Scholarship 2020</p>
+                <p><b>#dirumahaja</b></p>
+                <div class="btn-wrapper">
+                    <a href="#" class="btn join"><b>CONTACT US</b></a>
+                </div>
             </div>
         </div>
     </div>
     <!-- code untuk main banner selesai disini  -->
 
-
-    <!-- code untuk our process mulai dari sini  -->
-    <div class="our-process">
+    <!-- divisi our service  -->
+    <div id="service" class="service-wrapper">
         <div class="container">
-            <h2 class="section-title">OUR PROCESS</h2>
-            <p>Success is no accident.
-            <br/> It is hard work, perseverance, learning, studying, sacrifice and most of all,
-            <br/>love of what you are doing or learning to do.</p>
             <center>
-            <div class="flip">
-
-                <div class="bungkus">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-back">
-                            <img src="img/design.png" alt="Paris" style="width:300px">
-                            </div>
-                            <div class="flip-box-front">
-                            <h2>Planning</h2>
-                            <p>Lorem Ipsum is Met</p>
-                            </div>
+                <div class="judul-section">
+                    <h1>OUR SERVICES</h1>
+                    <h3>We provide wide range of web & business services.</h3>
+                    <p>Our team of designers and developers have the tools, training and expertise to design and develop sites for all types of businesses. Whether you are an e-commerce company or new startup or small business, we will create an elegant responsive website for you.</p>
+                </div>
+                <div class="col-1-4">
+                    <div class="feature">
+                        <div class="judul-service">
+                            <h3 class="feature-title">Mobile Apps</h3>
                         </div>
+                        <img src="img/flaticon-app.png" alt="">
+                        <p class="feature-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                    
+                </div>
+                <div class="col-1-4">
+                    <div class="feature">
+                        <div class="judul-service">
+                            <h3 class="feature-title">Web Development</h3>
+                        </div>
+                        <img src="img/flaticon-web.png" alt="">
+                        <p class="feature-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    </div>
+                    
+                </div>
+                <div class="col-1-4">
+                    <div class="feature">
+                        <div class="judul-service">
+                            <h3 class="feature-title">Digital Startegist</h3>
+                        </div>
+                        <img src="img/flaticon-seo.png" alt="">
+                        <p class="feature-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                 </div>
-
-                <div class="bungkus">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-back">
-                            <img src="img/coding.png" alt="Paris" style="width:300px">
-                            </div>
-                            <div class="flip-box-front">
-                            <h2>Building</h2>
-                            <p>Lorem Ipsum is Met</p>
-                            </div>
+                <div class="col-1-4">
+                    <div class="feature">
+                        <div class="judul-service">
+                            <h3 class="feature-title">Branding & Design</h3>
                         </div>
+                        <img src="img/flaticon-design.png" alt="">
+                        <p class="feature-disc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                 </div>
-
-                <div class="bungkus">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-back">
-                            <img src="img/result.png" alt="Paris" style="width:300px">
-                            </div>
-                            <div class="flip-box-front">
-                            <h2>Result</h2>
-                            <p>Lorem Ipsum is Met</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
             </center>
+            <div class="clear"></div>
         </div>
     </div>
-    <!-- copy sampai sini  -->
 
-    <!-- code untuk our process berakhir diisini -->
+    <!-- code untuk our portfolio mulai dari sini  -->
+    <div id="portfolio" class="portfolio-wrapper">
+        <div class="container">
+            <center>
+            <div class="judul-portfolio">
+                <h1>PORTFOLIOS</h1>
+                <h3>Our Success is measured by results</h3>
+                <p>Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all,
+                love of what you are doing or learning to do.</p>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="portfolio-items isotopeWrapper clearfix" id="3">
+                  
+                        <article class="col-1-4 isotopeItem webdesign">
+                            <div class="portfolio-item">
+                                <img src="img/folio1 copy.png" alt="" />
+                                <div class="portfolio-desc align-center">
+                                    <div class="folio-info">
+                                        <h5><a href="#section-html" class="alink" name="section-html"> Project Detail</a></h5>
+                                        <a href="#section-html" class="alink" name="section-html"><i class="fa fa-plus fa-2x"></i></a>
+                                    </div>										   
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-1-4 isotopeItem webdesign">
+                            <div class="portfolio-item">
+                                <img src="img/folio7.png" alt="" />
+                                <div class="portfolio-desc align-center">
+                                    <div class="folio-info">
+                                        <h5><a href="#section-jquery" class="alink" name="section-jquery"> Project Detail</a></h5>
+                                        <a href="#section-jquery" class="alink" name="section-jquery"><i class="fa fa-plus fa-2x"></i></a>
+                                    </div>										   
+                                </div>
+                            </div>
+                        </article>
+                        
+
+                        <article class="col-1-4 isotopeItem photography">
+                            <div class="portfolio-item">
+                                <img src="img/folio8.png" alt="" />
+                                <div class="portfolio-desc align-center">
+                                    <div class="folio-info">
+                                        <h5><a href="#section-php" class="alink" name="section-php"> Project Detail</a></h5>
+                                        <a href="#section-php" class="alink" name="section-php"><i class="fa fa-plus fa-2x"></i></a>
+                                    </div>										   
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-1-4 isotopeItem photography">
+                            <div class="portfolio-item">
+                                <img src="img/folio10.png" alt="" />
+                                <div class="portfolio-desc align-center">
+                                    <div class="folio-info">
+                                        <h5><a href="#section-codeigniter" class="alink" name="section-codeigniter"> Project Detail</a></h5>
+                                        <a href="#section-codeigniter" class="alink" name="section-codeigniter"><i class="fa fa-plus fa-2x"></i></a>
+                                    </div>										   
+                                </div>
+                            </div>
+                        </article>
+
+                    
+
+                        <article class="col-1-4 isotopeItem print">
+                            <div class="portfolio-item">
+                                <img src="img/folio11.png" alt="" />
+                                <div class="portfolio-desc align-center">
+                                    <div class="folio-info">
+                                        <h5><a href="#section-joomla" class="alink" name="section-joomla"> Project Detail</a></h5>
+                                        <a href="#section-joomla" class="alink" name="section-joomla"><i class="fa fa-plus fa-2x"></i></a>
+                                    </div>										   
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-1-4 isotopeItem print">
+                            <div class="portfolio-item">
+                                <img src="img/folio12.png" alt="" />
+                                <div class="portfolio-desc align-center">
+                                    <div class="folio-info">
+                                        <h5><a href="#section-wordpress" class="alink" name="section-wordpress"> Project Detail</a></h5>
+                                        <a href="#section-wordpress" class="alink" name="section-wordpress"><i class="fa fa-plus fa-2x"></i></a>
+                                    </div>										   
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-1-4 isotopeItem webdesign">
+                            <div class="portfolio-item">
+                                <img src="img/folio1 copy.png" alt="" />
+                                <div class="portfolio-desc align-center">
+                                    <div class="folio-info">
+                                        <h5><a href="#section-html" class="alink" name="section-html"> Project Detail</a></h5>
+                                        <a href="#section-html" class="alink" name="section-html"><i class="fa fa-plus fa-2x"></i></a>
+                                    </div>										   
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-1-4 isotopeItem webdesign">
+                            <div class="portfolio-item">
+                                <img src="img/folio7.png" alt="" />
+                                <div class="portfolio-desc align-center">
+                                    <div class="folio-info">
+                                        <h5><a href="#section-jquery" class="alink" name="section-jquery"> Project Detail</a></h5>
+                                        <a href="#section-jquery" class="alink" name="section-jquery"><i class="fa fa-plus fa-2x"></i></a>
+                                    </div>										   
+                                </div>
+                            </div>
+                        </article>
+
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+            </center>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- code folio berakhir disni  -->
+
+    <!-- ruang kosong -->
+    <div class="banner-saja">
+
+    </div>
 
     <!-- kode about us, dikerjakan oleh mas Siddik mulai dari sini  -->
-    <div class="about-wrapper">
+    <div id="about-us" class="about-wrapper">
         <div class="container">
-            <div class="section-title">
-                <h2>ABOUT US</h2>
-            </div>
-            <div class="aboutus">
-                <div class="about">
-                    <div class="about-icon">
+            <center>
+                <div class="judul">
+                    <h1>ABOUT US</h1>
+                </div>
+
+                <div class="sepertiga">
+                    <div class="about">
                         <img src="img/main-logo.png">
                     </div>
                 </div>
-                <div class="about">
 
-                    <p class="text-contents">We are web developer team from Online Academy which is supported by KOMINFO
-                        in their program
-                        "Digital Talent
-                        Scholarship". This Program is also colaborate with Progate (Programming Course).
-                        We have a solid team and capable to solve problems related with web design and web
-                        development
-                        that may occur.
-                        We are ready to help you to make a good website.</p>
+                <div class="sepertiga">
+                    <div class="about">
+                        <p class="about-disc">We are web developer team from Online Academy which is supported by KOMINFO
+                            in their program
+                            "Digital Talent
+                            Scholarship". This Program is also colaborate with Progate (Programming Course).
+                            We have a solid team and capable to solve problems related with web design and web
+                            development
+                            that may occur.
+                            We are ready to help you to make a good website.</p>
+                    </div>
                 </div>
-
-
                 <div class="clear"></div>
-            </div>
+            </center>
         </div>
     </div>
     <!-- code about us yang dikerjakan oleh mas sidik sampai disni  -->
@@ -144,149 +278,152 @@
     <!-- code untuk our team mulai dari sini  -->
     <!-- our team dikerjakan oleh mas jemjem  -->
             <!--- slider-->
-    <div class="clear"></div>
-        <div class="slider-holder">
-            <span id="slider-image-1"></span>
-            <span id="slider-image-2"></span>
-            <span id="slider-image-3"></span>
-            <div class="image-holder">
-                <img src="img/code.jpg" class="slider-image" />
-                <img src="img/horizontal-color.png" class="slider-image" />
-                <img src="" class="slider-image" />
-            </div>
-            <div class="button-holder">
-                <a href="#slider-image-1" class="slider-change"></a>
-                <a href="#slider-image-2" class="slider-change"></a>
-                <a href="#slider-image-3" class="slider-change"></a>
+    <div class="slider">
+        <div class="container">
+            <center>
+                <div class="col-1-2">
+                    <div class="slider-holder">
+                        <span id="slider-image-1"></span>
+                        <span id="slider-image-2"></span>
+                        <span id="slider-image-3"></span>
+                        <span id="slider-image-4"></span>
+                        <span id="slider-image-5"></span>
+                        <div class="image-holder">
+                            <img src="img/logo-01.png" class="slider-image" />
+                            <img src="img/logo-02.png" class="slider-image" />
+                            <img src="img/logo-03.png" class="slider-image" />
+                            <img src="img/logo-04.png" class="slider-image" />
+                            <img src="img/logo-05.png" class="slider-image" />
+                        </div>
+                        <div class="button-holder">
+                            <a href="#slider-image-1" class="slider-change"></a>
+                            <a href="#slider-image-2" class="slider-change"></a>
+                            <a href="#slider-image-3" class="slider-change"></a>
+                            <a href="#slider-image-4" class="slider-change"></a>
+                            <a href="#slider-image-5" class="slider-change"></a>
+                        </div>
+                    </div>
+                    <p class="petunjuk">Klik titik untuk menggeser Logo</p>
+                </div>
+            </center>
         </div>
     </div>
-            
-            <!--- slider-->
-    <div id="our-team" class="tim-wrapper">
+    <!--- slider-->
+
+    <div id="#team" class="team-wrapper">
         <div class="container">
-            <div class="section-title">
-                <h2>OUR TEAM</h2>
+            <div class="judul">
+                <h1>OUR TEAM</h1>
             </div>
-                <div class="tim">
-                    <div class="card">
-                        <img src="img/liu.png" alt="Avatar">
-                        <div class="txt-contents">
-                            <p class="txt-contents"><b>Liu</b> Purnomo</p>
-                            <div>
-                                <a href="#" class="btn medsos"><i class="fa fa-facebook-square"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-twitter"></i></a>
-                            </div>
+            <div class="team">
+                <center>
+                    <div class="col-1-5">
+                        <div class="foto-tim">
+                            <img src="img/liu.png" alt="">
+                        </div>
+                        <p class="team-name"><b>Liu</b> Purnomo</p>
+                        <div class="icon-medsos">
+                            <a href="https://liupurnomo.com" class="medsos"><i class="fa fa-home"></i></a>
+                            <a href="https://www.instagram.com/liupurnomo" class="medsos"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.twitter.com/liupurnomo" class="medsos"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                </div>
-                <div class="tim">
-                    <div class="card">
-                        <img src="img/jemjem.png" alt="Avatar">
-                        <div class="txt-contents">
-                            <p class="txt-contents"><b>Jemjem</b> Nurjaman</p>
-                            <div>
-                                <a href="#" class="btn medsos"><i class="fa fa-facebook-square"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-twitter"></i></a>
-                            </div>
+                    <div class="col-1-5">
+                        <div class="foto-tim">
+                            <img src="img/jemjem.png" alt="">
+                        </div>
+                        <p class="team-name"><b>Jemjem</b> Nurjaman</p>
+                        <div class="icon-medsos">
+                            <a href="#" class="medsos"><i class="fa fa-home"></i></a>
+                            <a href="#" class="medsos"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="medsos"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                </div>
-                <div class="tim">
-                    <div class="card">
-                        <img src="img/asep.png" alt="Avatar">
-                        <div class="txt-contents">
-                            <p class="txt-contents"><b>Asep</b> Sidik</p>
-                            <div>
-                                <a href="#" class="btn medsos"><i class="fa fa-facebook-square"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-twitter"></i></a>
-                            </div>
+                    <div class="col-1-5">
+                        <div class="foto-tim">
+                            <img src="img/asep.png" alt="">
+                        </div>
+                        <p class="team-name"><b>Asep</b> Siddik</p>
+                        <div class="icon-medsos">
+                            <a href="#" class="medsos"><i class="fa fa-home"></i></a>
+                            <a href="#" class="medsos"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="medsos"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                </div>
-                <div class="tim">
-                    <div class="card">
-                        <img src="img/ikhwal.png" alt="Avatar">
-                        <div class="txt-contents">
-                            <p class="txt-contents"><b>Muh</b> Ikhwal</p>
-                            <div>
-                                <a href="#" class="btn medsos"><i class="fa fa-facebook-square"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-twitter"></i></a>
-                            </div>
+                    <div class="col-1-5">
+                        <div class="foto-tim">
+                            <img src="img/ikhwal.png" alt="">
+                        </div>
+                        <p class="team-name"><b>Muh</b> Ikhwal</p>
+                        <div class="icon-medsos">
+                            <a href="#" class="medsos"><i class="fa fa-home"></i></a>
+                            <a href="#" class="medsos"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="medsos"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                </div>
-                <div class="tim">
-                    <div class="card">
-                        <img src="img/lutfi.png" alt="Avatar">
-                        <div class="txt-contents">
-                            <p class="txt-contents"><b>Lutfi</b> Naufal</p>
-                            <div>
-                                <a href="#" class="btn medsos"><i class="fa fa-facebook-square"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="btn medsos"><i class="fa fa-twitter"></i></a>
-                            </div>
+                    <div class="col-1-5">
+                        <div class="foto-tim">
+                            <img src="img/lutfi.png" alt="">
+                        </div>
+                        <p class="team-name"><b>Lutfi</b> Naufal</p>
+                        <div class="icon-medsos">
+                            <a href="#" class="medsos"><i class="fa fa-home"></i></a>
+                            <a href="#" class="medsos"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="medsos"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
-                </div>
+                </center>
             </div>
+            <div class="clear"></div>
         </div>
+
     </div>
     <!-- code untuk our team berakhir disini  -->
 
     <!-- code untuk contact us yang dikerjakan oleh mas Muh Ikhwal mulai dari sini  -->
 
-    <div class="join-us">
+    <div id="contact" class="contact-wrapper">
 	  <div class="container">
-			<div class="section-title">
-                <h2>GET IN TOUCH</h2>
+			<div class="judul">
+                <h1>GET IN TOUCH</h1>
             </div>
-			<div class="kolom">
-				<div class="row">
+            <div class="sebelahan">
 					<div class="kiri">
-						<img src="img/location.png" alt="Image" height="42" width="42">
-						<div class="text">
+						<img src="img/location.png">
 						<p><b>Location : </b> <p>
-						<p>jln 123 <p>
-						</div>
+						<p>Jl. Medan Merdeka Barat no. 9, Jakarta 10110 <p>
 					</div>
 					<div class="kiri">
-						<img src="img/mail.png" alt="Image" height="42" width="42">
-						<div class="text">
+						<img src="img/mail.png">
 						<p><b>Email : </b><p>
 						<p>F3Team@gmail.com <p>
-						</div>
 					</div>
 					<div class="kiri">
-						<img src="img/google-contacts.png" alt="Image" height="42" width="42">
-						<div class="text">
+						<img src="img/google-contacts.png">
 						<p><b>Contact : </b><p>
 						<p>+628233455677 <p>
-						</div>
 					</div>
-				</div>
 			</div>
-			   <div class="kolom">
-			     <div class=column>
-			         <div class="kanan">
-			            <input type="text" class="form-control" placeholder="Name">
-			            <input type="text" class="form-control" placeholder="email"><br>
-			         </div>
-			         <div class="kanan">
-			            <input type="text" class="form-control" placeholder="subject">
-			        </div>
-			        <div class="kanan">
-			            <textarea type="text" class="form-control" placeholder="message"></textarea>
-			        </div>
-			        <div class="kanan">
-			            <a href="#" class='tombol'>Submit</a>
-			        </div>
-			    </div>
+            
+			<div class="sebelahan">
+			     <center>
+                        <div>
+                           <input type="text" class="form-control" placeholder="Name">
+                           <input type="text" class="form-control" placeholder="email"><br>
+                        </div>
+                        <div>
+                           <input type="text" class="form-control" placeholder="subject">
+                       </div>
+                       <div>
+                           <textarea type="text" class="form-control" placeholder="message"></textarea>
+                       </div>
+                       <div>
+                           <a href="#" class='tombol'>Submit</a>
+                       </div>
+                 </center>
 			</div>
-	   </div>	
+       </div>
+       <div class="clear"></div>	
 	</div>  
     <!-- code untuk contact us yang dikerjakan oleh mas Muh Ikhwal selesai di sini  -->
 
@@ -294,16 +431,28 @@
 
     <!-- main footer code mulai dari sini -->
     <div class="main-footer">
-        <div class="container">
-            <img src="img/vertival-white.png" alt="">
-        </div>
+        <center>
+            <div class="container">
+                <img src="img/vertival-white.png" alt="">
+            </div>
+            <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+                <div>
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    </ul>				
+                </div>
+            </div>
+        </center>
     </div>
     <div class="clear"></div>
     <!-- code main footer berakhir disni  -->
 
     <footer>
-
-        <p class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="https://f3-dts.github.io/web/" target="_blank">F3 Team</a></p>
+        <div>
+            <p>Designed with <i class="fas fa-heart"></i> by F3 Tim &copy; 2020</p> 
+         </div>
     </footer>
     </body>
     

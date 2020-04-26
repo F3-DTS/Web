@@ -1,76 +1,106 @@
 
-
+/* Style pada tablet  */
 @media all and (max-width: 1000px) {
-    /* about us */
-  .about {
-    width:100%;
-    margin-bottom: 50px;
-}
-.heading h2 {
-    font-size: 30px;
+
+  .hideipad {
+    display: none !important;
   }
-    /* akhir about us */
 
-/* === MULAI OUR TEAM === */
-.bungkus{
-  margin-bottom: 10px;
-  width: 100%;
-}
- .our-process {
-     padding :24px 24px;
-    }
-.flip{
-  display: flex;
-  flex-direction: column;
-   align-items:center;
-}
-.flip-box {
-  width: 100%;
+  .login-menu {
+    border: none !important;
+    color: #425ba9 !important;
+    border-radius: 0 !important;
+    margin: 10px 0 10px 20px !important;
+    padding-top: 1px !important;
+    line-height: 45px !important;
 }
 
-.team {
-  width: 100%;
-  margin-top: 20px;
+.join-menu {
+    border: none !important;
+    color: #425ba9 !important;
+    line-height: 45px !important;
+    margin-right: 40px !important;
+    padding-top: 1px !important;
 }
-/* === AKHIR OUR TEAM === */
 
-.contact-form {
-  width: 100%;
-  margin-bottom: 20px;
+.menu-icon {
+  display: block !important;
+  color: #425ba9;
+  padding-top: 25px;
 }
-      /* akhir about us */
-    .kolom {
-    
+
+.col-1-4 {
+    width: 50%;
+    float: left;
+}
+
+.col-1-5 {
+  width: 50%;
+}
+
+}
+/* =============== Style pada smartphone =================== */
+
+@media all and (max-width: 670px) {
+  /* header style  */
+  .header-right {
+    display: none;
+  }
+      
+  .menu-icon {
+    display: block !important;
+    color: #425ba9;
+  }
+
+  /* top wrapper style  */
+  .top-wrapper {
+    padding: 100px auto;
+    height: auto;
+    background-image: url(img/banner-project.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .content-top {
+    padding-top: 100px;
+  }
+
+  .content-top h1{
+    text-align: center;
+  }
+
+  .content-top p {
+    text-align: center;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+  }
+
+  /* Service wrapper style  */
+  .service-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .col-1-4 {
     width: 100%;
   }
 
-  .team {
-  width: 100%;
-  margin-top: 20px;
+  .col-1-5 {
+    width: 100%;
   }
 
-  .tim {
-   width: 50%;
-   padding: 15px;
+  .sebelahan {
+    width: 100%;
   }
 
-  .contact-form {
-  width: 100%;
-  margin-bottom: 20px;
-  }
-
-  .card {
-    display: flex;
-  }
-.slider-holder{
-    display: none;
- }
-}
 
 
-@media all and (max-width: 670px) {
-/* about us */
-  .about {
+}    
+  /* about us */
+  /* .about {
     width: 100%;
   }
 
@@ -85,19 +115,12 @@
   .text-contents {
     font-size: 14px;
         
- }
-      
-  /* akhir about us */
+ } */
+ /* akhir about us */
 
-  .header-right {
-    display: none;
-  }
-      
-  .menu-icon {
-    display: block;
-  }
+  
 
- .kolom {
+ /* .kolom {
     width: 100%;
   }
 
@@ -141,4 +164,4 @@
      width: 100%;
 }
 
-
+ */
